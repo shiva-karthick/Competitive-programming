@@ -13,11 +13,11 @@ Difficulty Level 2.5 < you < 4
 | 2021       | ABC                 | NA               | 15 mins    | ✅          |
 | 13-11-2021 | From A to B         | 2.5              | 2 hours    | ✅          |
 | 13-11-2021 | okviri              | 2                | 1 hour     | ✅          |
-| 13-11-2021 | completingthesquare |                  |            | ✅          |
-| 14-11-2021 | 3dprinter           |                  |            | ✅          |
+| 13-11-2021 | completingthesquare | 2                | 1 hour     | ✅          |
+| 14-11-2021 | 3dprinter           | 2                | 1 hour     | ✅          |
 | 14-11-2021 | babelfish           | NA               | 30 mins    | ✅          |
 | 15-11-2021 | knightjump          |                  |            |            |
-| 15-11-2021 | npuzzle             |                  |            |            |
+| 15-11-2021 | npuzzle             | 2                | 1 hour     | ✅          |
 | 16-11-2021 | playfair            |                  |            |            |
 | 16-11-2021 | asciifigurerotation |                  |            |            |
 | 17-11-2021 | flipfive            |                  |            |            |
