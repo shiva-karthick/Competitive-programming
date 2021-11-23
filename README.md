@@ -21,13 +21,13 @@ Difficulty Level 2.5 < you < 4
 | 16-11-2021 | playfair            |                  |            |            |
 | 16-11-2021 | asciifigurerotation |                  |            |            |
 | 17-11-2021 | flipfive            |                  |            |            |
-| 17-11-2021 | grid                |                  |            |            |
+| 17-11-2021 | grid                | 3.3              | 2 hours    | ✅          |
 | 18-11-2021 | pathtracing         |                  |            |            |
 | 18-11-2021 | textureanalysis     |                  |            |            |
-| 19-11-2021 | imagedecoding       |                  |            |            |
-| 19-11-2021 | quadrant            |                  |            |            |
-| 20-11-2021 | planina             |                  |            |            |
-| 21-11-2021 | datum               |                  |            |            |
+| 19-11-2021 | imagedecoding       | 3.3              | 1 hour     | ✅          |
+| 19-11-2021 | quadrant            | NA               | 5 minutes  | ✅          |
+| 20-11-2021 | planina             | NA               | 5 minutes  | ✅          |
+| 21-11-2021 | datum               | NA               | 5 minutes  | ✅          |
 | 21-11-2021 | bela                |                  |            |            |
 | 22-11-2021 | autori              |                  |            |            |
 | 23-11-2021 | pot                 |                  |            |            |
@@ -36,22 +36,6 @@ Difficulty Level 2.5 < you < 4
 | 24-11-2021 | trik                |                  |            |            |
 | 24-11-2021 | pieceofcake2        |                  |            |            |
 
-
-__Medium__
-
-+ okviri
-+ completingthesquare
-+ 3dprinter
-+ babelfish
-
-__Hard__
-
-+ akcija
-+ whatdoesthefoxsay
-+ multiplication
-+ nineknights
-+ engineeringenglish
-+ gold
 
 
 __Simple__
@@ -67,12 +51,22 @@ __Medium__
 + https://open.kattis.com/problems/npuzzle
 + https://open.kattis.com/problems/playfair
 + https://open.kattis.com/problems/asciifigurerotation
++ okviri
++ completingthesquare
++ 3dprinter
++ babelfish
   
 __Hard__
 
 + https://open.kattis.com/problems/flipfive
 + https://open.kattis.com/problems/grid
 + https://open.kattis.com/problems/pathtracing
++ akcija
++ whatdoesthefoxsay
++ multiplication
++ nineknights
++ engineeringenglish
++ gold
 
 
 
