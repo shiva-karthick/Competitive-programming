@@ -18,23 +18,23 @@ Difficulty Level 2.5 < you < 4
 | 14-11-2021 | babelfish           | NA               | 30 mins    | ✅          |
 | 15-11-2021 | knightjump          | 2.6              | 2 hours    | ✅          |
 | 15-11-2021 | npuzzle             | 2                | 1 hour     | ✅          |
-| 16-11-2021 | playfair            |                  |            |            |
-| 16-11-2021 | asciifigurerotation |                  |            |            |
-| 17-11-2021 | flipfive            |                  |            |            |
+| 16-11-2021 | playfair            |                  |            | pseudocode |
+| 16-11-2021 | asciifigurerotation |                  |            | pseudocode |
+| 17-11-2021 | flipfive            |                  |            | pseudocode |
 | 17-11-2021 | grid                | 3.3              | 2 hours    | ✅          |
-| 18-11-2021 | pathtracing         |                  |            |            |
-| 18-11-2021 | textureanalysis     |                  |            |            |
+| 18-11-2021 | pathtracing         |                  |            | BFS        |
+| 18-11-2021 | textureanalysis     |                  |            | ✅          |
 | 19-11-2021 | imagedecoding       | 3.3              | 1 hour     | ✅          |
 | 19-11-2021 | quadrant            | NA               | 5 minutes  | ✅          |
 | 20-11-2021 | planina             | NA               | 5 minutes  | ✅          |
 | 21-11-2021 | datum               | NA               | 5 minutes  | ✅          |
-| 21-11-2021 | bela                |                  |            |            |
-| 22-11-2021 | autori              |                  |            |            |
-| 23-11-2021 | pot                 |                  |            |            |
-| 24-11-2021 | oddities            |                  |            |            |
-| 24-11-2021 | lastfactorialdigit  |                  |            |            |
-| 24-11-2021 | trik                |                  |            |            |
-| 24-11-2021 | pieceofcake2        |                  |            |            |
+| 21-11-2021 | bela                |                  |            | pseudocode |
+| 22-11-2021 | autori              |                  |            | ✅          |
+| 23-11-2021 | pot                 |                  |            | pseudocode |
+| 24-11-2021 | oddities            |                  |            | pseudocode |
+| 24-11-2021 | lastfactorialdigit  |                  |            | pseudocode |
+| 24-11-2021 | trik                |                  |            | pseudocode |
+| 24-11-2021 | pieceofcake2        |                  |            | pseudocode |
 
 
 
