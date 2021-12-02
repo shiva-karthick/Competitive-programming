@@ -7,7 +7,7 @@ push commit message : aoc-dayX-language-completed
 | Date      | Problems    | Difficulty Level | Time Taken | Completed✅ |
 | --------- | ----------- | ---------------- | ---------- | ---------- |
 | 1-12-2021 | Sonar Sweep | Easy             | 30 mins    | ✅          |
-| 2-12-2021 |             |                  |            |            |
+| 2-12-2021 | Dive        | Easy             | 30 mins    | ✅          |
 |           |             |                  |            |            |
 |           |             |                  |            |            |
 |           |             |                  |            |            |
