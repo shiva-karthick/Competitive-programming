@@ -3,6 +3,8 @@ Motivation :
 I am basically a dumb person, wanted to improve my problem solving skills, find immense joy in solving problems, happyness XD
 
 - Inspired by https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
+### Follow this excel sheet
+- https://docs.google.com/spreadsheets/d/18j9E8RYAwHVtI8oWF9vMrb7rwBkvwOTMaFIaKDjp9ho/edit#gid=0
   
 Array
 
@@ -131,37 +133,40 @@ Heap
 You're welcome!
 
 
-| Date       | Topic | Problems                | Difficulty Level | Time Taken |     |
-| ---------- | ----- | ----------------------- | ---------------- | ---------- | --- |
-| 1-12-2021  | Array | Two Sums                | Easy             | 5 mins     | ✅   |
-| 2-12-2021  | Array | Dive                    | Easy             | 30 mins    | ✅   |
-| 3-12-2021  | Array | Binary Diagnostic       | Easy             | 2 hours    | ✅   |
-| 4-12-2021  | Array | Giant Squid             | Medium           | 2 hours    | ✅   |
-| 5-12-2021  | Array | Hydrothermal Venture    | Hard             | 5 hours    | ✅   |
-| 6-12-2021  | Array | Lantern                 | Easy             | 1 hour     | ✅   |
-| 7-12-2021  | Array | The Treachery of Whales | Medium           | 4 hours    | ✅   |
-| 8-12-2021  | Array | Seven Segment Search    | Easy             | 3 hours    | ✅   |
-| 9-12-2021  | Array | Smoke Basin             | Easy             | 3 hours    | ✅   |
-| 10-12-2021 | Array | Syntax Scoring          | Easy             | 3 hours    | ✅   |
+| Date       | Topic | Problems                               | Difficulty Level | Time Taken |     |
+| ---------- | ----- | -------------------------------------- | ---------------- | ---------- | --- |
+| 1-12-2021  | Array | Two Sums                               | Easy             | 5 mins     | ✅   |
+| 2-12-2021  | Array | Best Time to Buy and Sell Stock        | Easy             | 30 mins    | ✅   |
+| 3-12-2021  | Array | Contains Duplicate                     | Easy             | 30 mins    | ✅   |
+| 4-12-2021  | Array | Product of Array Except Self           |                  |            |     |
+| 5-12-2021  | Array | Maximum Subarray (Dynamic programming) | Medium           | 1 hour     | ✅   |
+| 6-12-2021  | Array | Maximum Product Subarray               |                  |            |     |
+| 7-12-2021  | Array | Find Minimum in Rotated Sorted Array   |                  |            |     |
+| 8-12-2021  | Array | Search in Rotated Sorted Array         |                  |            |     |
+| 9-12-2021  | Array | 3Sum                                   |                  |            |     |
+| 10-12-2021 | Array | Container With Most Water              |                  |            |     |
 ---
-| Date       | Topic  | Problems                | Difficulty Level | Time Taken |     |
-| ---------- | ------ | ----------------------- | ---------------- | ---------- | --- |
-| 11-12-2021 | Binary | Dumbo Octopus           | Easy             | 3 hours    | ✅   |
-| 12-12-2021 | Binary | Passage Pathing         | Hard             | 3 hours    | ✅   |
-| 13-12-2021 | Binary | Transparent Origami     | Hard             | 3 hours    | ✅   |
-| 14-12-2021 | Binary | Extended Polymerization | Hard             | 3 hours    | ✅   |
-| 15-12-2021 | Binary | Chiton                  | Hard             | 3 hours    | ✅   |
+| Date       | Topic  | Problems            | Difficulty Level | Time Taken |     |
+| ---------- | ------ | ------------------- | ---------------- | ---------- | --- |
+| 11-12-2021 | Binary | Sum of Two Integers |                  |            |     |
+| 12-12-2021 | Binary | Number of 1 Bits    |                  |            |     |
+| 13-12-2021 | Binary | Counting Bits       |                  |            |     |
+| 14-12-2021 | Binary | Missing Number      |                  |            |     |
+| 15-12-2021 | Binary | Reverse Bits        |                  |            |     |
 ---
 | Date       | Topic               | Problems                | Difficulty Level | Time Taken |     |
 | ---------- | ------------------- | ----------------------- | ---------------- | ---------- | --- |
-| 1-12-2021  | Dynamic Programming | Two Sums                | Easy             | 5 mins     | ✅   |
-| 2-12-2021  | Dynamic Programming | Dive                    | Easy             | 30 mins    | ✅   |
-| 3-12-2021  | Dynamic Programming | Binary Diagnostic       | Easy             | 2 hours    | ✅   |
-| 4-12-2021  | Dynamic Programming | Giant Squid             | Medium           | 2 hours    | ✅   |
-| 5-12-2021  | Dynamic Programming | Hydrothermal Venture    | Hard             | 5 hours    | ✅   |
-| 6-12-2021  | Dynamic Programming | Lantern                 | Easy             | 1 hour     | ✅   |
-| 7-12-2021  | Dynamic Programming | The Treachery of Whales | Medium           | 4 hours    | ✅   |
-| 8-12-2021  | Dynamic Programming | Seven Segment Search    | Easy             | 3 hours    | ✅   |
-| 9-12-2021  | Dynamic Programming | Smoke Basin             | Easy             | 3 hours    | ✅   |
-| 10-12-2021 | Dynamic Programming | Syntax Scoring          | Easy             | 3 hours    | ✅   |
+| 1-12-2021  | Dynamic Programming | Two Sums                |                  |            |     |
+| 2-12-2021  | Dynamic Programming | Dive                    |                  |            |     |
+| 3-12-2021  | Dynamic Programming | Binary Diagnostic       |                  |            |     |
+| 4-12-2021  | Dynamic Programming | Giant Squid             |                  |            |     |
+| 5-12-2021  | Dynamic Programming | Hydrothermal Venture    |                  |            |     |
+| 6-12-2021  | Dynamic Programming | Lantern                 |                  |            |     |
+| 7-12-2021  | Dynamic Programming | The Treachery of Whales |                  |            |     |
+| 8-12-2021  | Dynamic Programming | Seven Segment Search    |                  |            |     |
+| 9-12-2021  | Dynamic Programming | Smoke Basin             |                  |            |     |
+| 10-12-2021 | Dynamic Programming | Syntax Scoring          |                  |            |     |
 ---
+
+### C++ sorting algos
+- [C++ Clean Code Solution | Fastest | All (15+) Sorting Methods | Detailed](https://leetcode.com/problems/sort-an-array/discuss/1401412/C++-Clean-Code-Solution-or-Fastest-or-All-(15+)-Sorting-Methods-or-Detailed  )

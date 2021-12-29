@@ -1,3 +1,4 @@
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -21,8 +22,8 @@ class Result {
      */
 
     public static int birthdayCakeCandles(List<Integer> candles) {
-    // Write your code here
-    return Collections.frequency(candles, Collections.max(candles));
+        // Write your code here
+        return Collections.frequency(candles, Collections.max(candles));
     }
 
 }
@@ -35,8 +36,8 @@ public class Solution {
         int candlesCount = Integer.parseInt(bufferedReader.readLine().trim());
 
         List<Integer> candles = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-            .map(Integer::parseInt)
-            .collect(toList());
+                .map(Integer::parseInt)
+                .collect(toList());
 
         int result = Result.birthdayCakeCandles(candles);
 
@@ -47,4 +48,3 @@ public class Solution {
         bufferedWriter.close();
     }
 }
-
