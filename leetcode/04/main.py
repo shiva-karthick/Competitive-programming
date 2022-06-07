@@ -14,13 +14,13 @@ class Solution:
         pass
 
     def findMedianSortedArrays(self, A, B):
-        l = len(A) + len(B)
-        if l % 2 == 1:
+        l = len(A) + len(B)  # total length of 2 lists
+        if l % 2 == 1:  # odd numbers
             return self.kth(A, B, l // 2)
-        else:
+        else:  # even numbers
             return (self.kth(A, B, l // 2) + self.kth(A, B, l // 2 - 1)) / 2.
 
-    def kth(self, a, b, k):
+    def kth(self, a, b, k):  # a = A, b = B, k = l // 2
         if not a:
             return b[k]
         if not b:
