@@ -1,12 +1,12 @@
 import sys
 
-## Think parallel, the number of printers is directly proportional to the number of statues.
-## 5 printers = 5 statues
+# Think parallel, the number of printers is directly proportional to the number of statues.
+# 5 printers = 5 statues
 
-statues = int(input());
-printers = 1;
-statuesprinted = 0;
-days = 0;
+statues = int(input())
+printers = 1
+statuesprinted = 0
+days = 0
 
 
 while statuesprinted < statues:

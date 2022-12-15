@@ -1,7 +1,7 @@
 Extra Code forces questions
 https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=855203541
 
-s
+
 Difficulty Level 2.5 < you < 4
 ## Kattis problems 
 
@@ -66,3 +66,4 @@ __Hard__
 + engineeringenglish
 + gold
 
+https://github.com/xCiaraG/Kattis/blob/master/2048.py
