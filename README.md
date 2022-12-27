@@ -1,17 +1,10 @@
-### “To become really good at anything,you have to practice and repeat, practice and repeat, until the technique becomes intuitive”
+## Total Kattis Problems Solved : 20 -> 100
+## Total Leetcode Problems Solved : 33 -> 100
 
-― Paulo Coelho, Aleph
+### Leetcode Grind 75 by NUS CS senior Tay Yangshun :) 
+HackerRank Practice Java, C++, Algorithms
 
-### We need to teach how doubt is not to be feared but welcomed. It's OK to say, "I don't know."
-- Richard P. Feynman
-
-## Problem sets
-Kattis problem sets
-Leetcode Grind 75
-HackerRank Pratice Java, C++, Algorithms
-
-
-FAQ:
+### FAQ:
 - What are some useful features of java that you are allowed to use in CS2040s?
   - ArrayList(better than standard arrays), LinkedList, PriorityQueue, HashMap, HashSet that's about it I think
   - You will be implementing most of the data structures yourself
