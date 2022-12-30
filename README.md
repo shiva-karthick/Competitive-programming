@@ -53,3 +53,6 @@ All Pairs Shortest Path:
 - Floyd-Warshall
 - Dijkstra from every node
 
+CS2040
+- https://takefivee.wordpress.com/2021/06/24/cs2040-data-structures-and-algorithms/
+- https://www.reddit.com/r/nus/comments/oxz7ct/cs2040_under_tst/

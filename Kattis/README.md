@@ -7,7 +7,7 @@ https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSY
 - betting
 - averagecharacter ✅
 - codetosavelives ✅
-- testdrive
+- testdrive ✅
 - socialdistancing2
 - doublepassword
 - workingfromhome
@@ -17,7 +17,7 @@ https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSY
 ### PS1: Basic C++ 
 - successfulzoom
 - fluortanten
-#### First Half Demos (11 Aug-15 Sep) 
+#### First Half Demos
 - vectorfunctions
 - rankproblem
 - thanos
@@ -38,14 +38,14 @@ https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSY
 ### PS3: List-related Problems 
 - nus.bracketmatching
 - congaline
-#### Mock PE 1 (08 Sep) 
+#### Mock PE 1
 - babypanda
 - gearchanging
 - heap
 #### PS4: PQ/HashTable-related Problems 
 - arraysmoothening
 - kaploeb
-#### Second Half Demos (29 Sep-08 Nov) 
+#### Second Half Demos
 - tildes
 - bokforing
 - jobbyte
@@ -64,7 +64,7 @@ https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSY
 #### PS5: Heavy DS Problems 
 - quickscope
 - nus.99problems
-#### Mock PE 2 (20 Oct) 
+#### Mock PE 2
 - hotsprings
 - coursescheduling
 - skyislands
@@ -92,7 +92,7 @@ https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSY
 - pumpkinpatch
 - nus.fendofftitan
 - nus.dragonmaid
-#### make-up/re-PE (16 Nov) 
+#### make-up/re-PE
 - nus.fendofftitan
 - nus.dragonmaid
 
