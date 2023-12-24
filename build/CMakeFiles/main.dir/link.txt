@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/main.dir/kattis/VELKOMIN/main.c.o -o main 
+/usr/bin/gcc -g CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o -o main 

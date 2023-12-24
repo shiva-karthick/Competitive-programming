@@ -1,3 +1,3 @@
 cmake_minimum_required(VERSION 3.22)
-project(kattis)
-add_executable(main kattis/VELKOMIN/main.c)
+project(Competitve-programming)
+add_executable(main leetcode/0100-Same-Tree/main.c)

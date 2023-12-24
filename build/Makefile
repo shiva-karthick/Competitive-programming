@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-kattis/VELKOMIN/main.o: kattis/VELKOMIN/main.c.o
-.PHONY : kattis/VELKOMIN/main.o
+leetcode/0100-Same-Tree/main.o: leetcode/0100-Same-Tree/main.c.o
+.PHONY : leetcode/0100-Same-Tree/main.o
 
 # target to build an object file
-kattis/VELKOMIN/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/VELKOMIN/main.c.o
-.PHONY : kattis/VELKOMIN/main.c.o
+leetcode/0100-Same-Tree/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o
+.PHONY : leetcode/0100-Same-Tree/main.c.o
 
-kattis/VELKOMIN/main.i: kattis/VELKOMIN/main.c.i
-.PHONY : kattis/VELKOMIN/main.i
+leetcode/0100-Same-Tree/main.i: leetcode/0100-Same-Tree/main.c.i
+.PHONY : leetcode/0100-Same-Tree/main.i
 
 # target to preprocess a source file
-kattis/VELKOMIN/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/VELKOMIN/main.c.i
-.PHONY : kattis/VELKOMIN/main.c.i
+leetcode/0100-Same-Tree/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.i
+.PHONY : leetcode/0100-Same-Tree/main.c.i
 
-kattis/VELKOMIN/main.s: kattis/VELKOMIN/main.c.s
-.PHONY : kattis/VELKOMIN/main.s
+leetcode/0100-Same-Tree/main.s: leetcode/0100-Same-Tree/main.c.s
+.PHONY : leetcode/0100-Same-Tree/main.s
 
 # target to generate assembly for a file
-kattis/VELKOMIN/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/VELKOMIN/main.c.s
-.PHONY : kattis/VELKOMIN/main.c.s
+leetcode/0100-Same-Tree/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.s
+.PHONY : leetcode/0100-Same-Tree/main.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... kattis/VELKOMIN/main.o"
-	@echo "... kattis/VELKOMIN/main.i"
-	@echo "... kattis/VELKOMIN/main.s"
+	@echo "... leetcode/0100-Same-Tree/main.o"
+	@echo "... leetcode/0100-Same-Tree/main.i"
+	@echo "... leetcode/0100-Same-Tree/main.s"
 .PHONY : help
 
 

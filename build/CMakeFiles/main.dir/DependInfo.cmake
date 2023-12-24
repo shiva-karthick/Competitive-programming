@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/Competitive-programming/kattis/VELKOMIN/main.c" "CMakeFiles/main.dir/kattis/VELKOMIN/main.c.o" "gcc" "CMakeFiles/main.dir/kattis/VELKOMIN/main.c.o.d"
+  "/home/shankar/Shiva/Competitive-programming/leetcode/0100-Same-Tree/main.c" "CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o" "gcc" "CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o.d"
   )
 
 # Targets to which this target links.

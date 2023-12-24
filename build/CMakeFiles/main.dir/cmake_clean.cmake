@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/kattis/VELKOMIN/main.c.o"
-  "CMakeFiles/main.dir/kattis/VELKOMIN/main.c.o.d"
+  "CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o"
+  "CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o.d"
   "main"
   "main.pdb"
 )
