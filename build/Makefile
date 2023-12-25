@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-exercism/armstrong-numbers.o: exercism/armstrong-numbers.c.o
-.PHONY : exercism/armstrong-numbers.o
+exercism/matching-brackets.o: exercism/matching-brackets.c.o
+.PHONY : exercism/matching-brackets.o
 
 # target to build an object file
-exercism/armstrong-numbers.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/armstrong-numbers.c.o
-.PHONY : exercism/armstrong-numbers.c.o
+exercism/matching-brackets.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/matching-brackets.c.o
+.PHONY : exercism/matching-brackets.c.o
 
-exercism/armstrong-numbers.i: exercism/armstrong-numbers.c.i
-.PHONY : exercism/armstrong-numbers.i
+exercism/matching-brackets.i: exercism/matching-brackets.c.i
+.PHONY : exercism/matching-brackets.i
 
 # target to preprocess a source file
-exercism/armstrong-numbers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/armstrong-numbers.c.i
-.PHONY : exercism/armstrong-numbers.c.i
+exercism/matching-brackets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/matching-brackets.c.i
+.PHONY : exercism/matching-brackets.c.i
 
-exercism/armstrong-numbers.s: exercism/armstrong-numbers.c.s
-.PHONY : exercism/armstrong-numbers.s
+exercism/matching-brackets.s: exercism/matching-brackets.c.s
+.PHONY : exercism/matching-brackets.s
 
 # target to generate assembly for a file
-exercism/armstrong-numbers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/armstrong-numbers.c.s
-.PHONY : exercism/armstrong-numbers.c.s
+exercism/matching-brackets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/matching-brackets.c.s
+.PHONY : exercism/matching-brackets.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... exercism/armstrong-numbers.o"
-	@echo "... exercism/armstrong-numbers.i"
-	@echo "... exercism/armstrong-numbers.s"
+	@echo "... exercism/matching-brackets.o"
+	@echo "... exercism/matching-brackets.i"
+	@echo "... exercism/matching-brackets.s"
 .PHONY : help
 
 

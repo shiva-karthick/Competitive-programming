@@ -25,10 +25,10 @@ project(Competitve-programming)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources exercism/armstrong-numbers.c)
+set(sources exercism/matching-brackets.c)
 add_executable(main ${sources})
 
 # This is for math.h tool: "-l m" which calling "libm.so"
 target_link_libraries(main ${libs_static} ${libs_shared} m)
 
-# Look in /lib or /usr/lib. The libraries are all named lib<name>.a or lib<name>.so - it's the "<name>" you put after the -l. In this case, the math library is named libm.so, so we call it -lm. - https://stackoverflow.com/questions/8671366/undefined-reference-to-pow-and-floor
+# Look in /lib or /usr/lib. The libraries are all named lib<name>.a or lib<name>.so - it's the "<name>" you put after the -l. In this case, the math library is named libm.so, so we call it -lm. - https://stackoverflow.com/questions/8671366/undefined-reference-to-pow-and-floor, https://stackoverflow.com/questions/39598323/how-to-properly-link-libraries-with-cmake

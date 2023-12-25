@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/main.dir/exercism/armstrong-numbers.c.o -o main  -lm 
+/usr/bin/gcc -g CMakeFiles/main.dir/exercism/matching-brackets.c.o -o main  -lm 
