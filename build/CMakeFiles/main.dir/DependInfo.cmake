@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/Competitive-programming/leetcode/0100-Same-Tree/main.c" "CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o" "gcc" "CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o.d"
+  "/home/shankar/Shiva/Competitive-programming/exercism/minesweeper.c" "CMakeFiles/main.dir/exercism/minesweeper.c.o" "gcc" "CMakeFiles/main.dir/exercism/minesweeper.c.o.d"
   )
 
 # Targets to which this target links.

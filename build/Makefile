@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-leetcode/0100-Same-Tree/main.o: leetcode/0100-Same-Tree/main.c.o
-.PHONY : leetcode/0100-Same-Tree/main.o
+exercism/minesweeper.o: exercism/minesweeper.c.o
+.PHONY : exercism/minesweeper.o
 
 # target to build an object file
-leetcode/0100-Same-Tree/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o
-.PHONY : leetcode/0100-Same-Tree/main.c.o
+exercism/minesweeper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/minesweeper.c.o
+.PHONY : exercism/minesweeper.c.o
 
-leetcode/0100-Same-Tree/main.i: leetcode/0100-Same-Tree/main.c.i
-.PHONY : leetcode/0100-Same-Tree/main.i
+exercism/minesweeper.i: exercism/minesweeper.c.i
+.PHONY : exercism/minesweeper.i
 
 # target to preprocess a source file
-leetcode/0100-Same-Tree/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.i
-.PHONY : leetcode/0100-Same-Tree/main.c.i
+exercism/minesweeper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/minesweeper.c.i
+.PHONY : exercism/minesweeper.c.i
 
-leetcode/0100-Same-Tree/main.s: leetcode/0100-Same-Tree/main.c.s
-.PHONY : leetcode/0100-Same-Tree/main.s
+exercism/minesweeper.s: exercism/minesweeper.c.s
+.PHONY : exercism/minesweeper.s
 
 # target to generate assembly for a file
-leetcode/0100-Same-Tree/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.s
-.PHONY : leetcode/0100-Same-Tree/main.c.s
+exercism/minesweeper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/minesweeper.c.s
+.PHONY : exercism/minesweeper.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... leetcode/0100-Same-Tree/main.o"
-	@echo "... leetcode/0100-Same-Tree/main.i"
-	@echo "... leetcode/0100-Same-Tree/main.s"
+	@echo "... exercism/minesweeper.o"
+	@echo "... exercism/minesweeper.i"
+	@echo "... exercism/minesweeper.s"
 .PHONY : help
 
 

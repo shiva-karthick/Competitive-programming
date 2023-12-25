@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o -o main 
+/usr/bin/gcc -g CMakeFiles/main.dir/exercism/minesweeper.c.o -o main 

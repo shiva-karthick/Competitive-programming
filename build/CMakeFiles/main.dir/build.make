@@ -69,28 +69,28 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o: ../leetcode/0100-Same-Tree/main.c
-CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o -MF CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o.d -o CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o -c /home/shankar/Shiva/Competitive-programming/leetcode/0100-Same-Tree/main.c
+CMakeFiles/main.dir/exercism/minesweeper.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/exercism/minesweeper.c.o: ../exercism/minesweeper.c
+CMakeFiles/main.dir/exercism/minesweeper.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/exercism/minesweeper.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/exercism/minesweeper.c.o -MF CMakeFiles/main.dir/exercism/minesweeper.c.o.d -o CMakeFiles/main.dir/exercism/minesweeper.c.o -c /home/shankar/Shiva/Competitive-programming/exercism/minesweeper.c
 
-CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shankar/Shiva/Competitive-programming/leetcode/0100-Same-Tree/main.c > CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.i
+CMakeFiles/main.dir/exercism/minesweeper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/exercism/minesweeper.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shankar/Shiva/Competitive-programming/exercism/minesweeper.c > CMakeFiles/main.dir/exercism/minesweeper.c.i
 
-CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shankar/Shiva/Competitive-programming/leetcode/0100-Same-Tree/main.c -o CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.s
+CMakeFiles/main.dir/exercism/minesweeper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/exercism/minesweeper.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shankar/Shiva/Competitive-programming/exercism/minesweeper.c -o CMakeFiles/main.dir/exercism/minesweeper.c.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o"
+"CMakeFiles/main.dir/exercism/minesweeper.c.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o
+main: CMakeFiles/main.dir/exercism/minesweeper.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shankar/Shiva/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main"

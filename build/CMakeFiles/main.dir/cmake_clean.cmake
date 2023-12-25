@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o"
-  "CMakeFiles/main.dir/leetcode/0100-Same-Tree/main.c.o.d"
+  "CMakeFiles/main.dir/exercism/minesweeper.c.o"
+  "CMakeFiles/main.dir/exercism/minesweeper.c.o.d"
   "main"
   "main.pdb"
 )
