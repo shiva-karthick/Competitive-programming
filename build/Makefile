@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-exercism/minesweeper.o: exercism/minesweeper.c.o
-.PHONY : exercism/minesweeper.o
+exercism/armstrong-numbers.o: exercism/armstrong-numbers.c.o
+.PHONY : exercism/armstrong-numbers.o
 
 # target to build an object file
-exercism/minesweeper.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/minesweeper.c.o
-.PHONY : exercism/minesweeper.c.o
+exercism/armstrong-numbers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/armstrong-numbers.c.o
+.PHONY : exercism/armstrong-numbers.c.o
 
-exercism/minesweeper.i: exercism/minesweeper.c.i
-.PHONY : exercism/minesweeper.i
+exercism/armstrong-numbers.i: exercism/armstrong-numbers.c.i
+.PHONY : exercism/armstrong-numbers.i
 
 # target to preprocess a source file
-exercism/minesweeper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/minesweeper.c.i
-.PHONY : exercism/minesweeper.c.i
+exercism/armstrong-numbers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/armstrong-numbers.c.i
+.PHONY : exercism/armstrong-numbers.c.i
 
-exercism/minesweeper.s: exercism/minesweeper.c.s
-.PHONY : exercism/minesweeper.s
+exercism/armstrong-numbers.s: exercism/armstrong-numbers.c.s
+.PHONY : exercism/armstrong-numbers.s
 
 # target to generate assembly for a file
-exercism/minesweeper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/minesweeper.c.s
-.PHONY : exercism/minesweeper.c.s
+exercism/armstrong-numbers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/armstrong-numbers.c.s
+.PHONY : exercism/armstrong-numbers.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... exercism/minesweeper.o"
-	@echo "... exercism/minesweeper.i"
-	@echo "... exercism/minesweeper.s"
+	@echo "... exercism/armstrong-numbers.o"
+	@echo "... exercism/armstrong-numbers.i"
+	@echo "... exercism/armstrong-numbers.s"
 .PHONY : help
 
 

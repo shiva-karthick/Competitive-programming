@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/shankar/Shiva/Competitive-programming/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/exercism/minesweeper.c.o -c /home/shankar/Shiva/Competitive-programming/exercism/minesweeper.c",
-  "file": "/home/shankar/Shiva/Competitive-programming/exercism/minesweeper.c"
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/exercism/armstrong-numbers.c.o -c /home/shankar/Shiva/Competitive-programming/exercism/armstrong-numbers.c",
+  "file": "/home/shankar/Shiva/Competitive-programming/exercism/armstrong-numbers.c"
 }
 ]

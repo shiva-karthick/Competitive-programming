@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/exercism/minesweeper.c.o"
-  "CMakeFiles/main.dir/exercism/minesweeper.c.o.d"
+  "CMakeFiles/main.dir/exercism/armstrong-numbers.c.o"
+  "CMakeFiles/main.dir/exercism/armstrong-numbers.c.o.d"
   "main"
   "main.pdb"
 )

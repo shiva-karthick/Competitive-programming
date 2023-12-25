@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/main.dir/exercism/minesweeper.c.o -o main 
+/usr/bin/gcc -g CMakeFiles/main.dir/exercism/armstrong-numbers.c.o -o main  -lm 
