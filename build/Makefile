@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-exercism/saddle-points.o: exercism/saddle-points.c.o
-.PHONY : exercism/saddle-points.o
+hackerrank/Practice-C/calculate-nth-term.o: hackerrank/Practice-C/calculate-nth-term.c.o
+.PHONY : hackerrank/Practice-C/calculate-nth-term.o
 
 # target to build an object file
-exercism/saddle-points.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/saddle-points.c.o
-.PHONY : exercism/saddle-points.c.o
+hackerrank/Practice-C/calculate-nth-term.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.o
+.PHONY : hackerrank/Practice-C/calculate-nth-term.c.o
 
-exercism/saddle-points.i: exercism/saddle-points.c.i
-.PHONY : exercism/saddle-points.i
+hackerrank/Practice-C/calculate-nth-term.i: hackerrank/Practice-C/calculate-nth-term.c.i
+.PHONY : hackerrank/Practice-C/calculate-nth-term.i
 
 # target to preprocess a source file
-exercism/saddle-points.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/saddle-points.c.i
-.PHONY : exercism/saddle-points.c.i
+hackerrank/Practice-C/calculate-nth-term.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.i
+.PHONY : hackerrank/Practice-C/calculate-nth-term.c.i
 
-exercism/saddle-points.s: exercism/saddle-points.c.s
-.PHONY : exercism/saddle-points.s
+hackerrank/Practice-C/calculate-nth-term.s: hackerrank/Practice-C/calculate-nth-term.c.s
+.PHONY : hackerrank/Practice-C/calculate-nth-term.s
 
 # target to generate assembly for a file
-exercism/saddle-points.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/saddle-points.c.s
-.PHONY : exercism/saddle-points.c.s
+hackerrank/Practice-C/calculate-nth-term.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.s
+.PHONY : hackerrank/Practice-C/calculate-nth-term.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... exercism/saddle-points.o"
-	@echo "... exercism/saddle-points.i"
-	@echo "... exercism/saddle-points.s"
+	@echo "... hackerrank/Practice-C/calculate-nth-term.o"
+	@echo "... hackerrank/Practice-C/calculate-nth-term.i"
+	@echo "... hackerrank/Practice-C/calculate-nth-term.s"
 .PHONY : help
 
 

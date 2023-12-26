@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/exercism/saddle-points.c.o"
-  "CMakeFiles/main.dir/exercism/saddle-points.c.o.d"
+  "CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.o"
+  "CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.o.d"
   "main"
   "main.pdb"
 )

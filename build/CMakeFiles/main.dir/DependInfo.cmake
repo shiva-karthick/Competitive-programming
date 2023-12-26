@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/Competitive-programming/exercism/saddle-points.c" "CMakeFiles/main.dir/exercism/saddle-points.c.o" "gcc" "CMakeFiles/main.dir/exercism/saddle-points.c.o.d"
+  "/home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/calculate-nth-term.c" "CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.o" "gcc" "CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.o.d"
   )
 
 # Targets to which this target links.

@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/shankar/Shiva/Competitive-programming/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/exercism/saddle-points.c.o -c /home/shankar/Shiva/Competitive-programming/exercism/saddle-points.c",
-  "file": "/home/shankar/Shiva/Competitive-programming/exercism/saddle-points.c"
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.o -c /home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/calculate-nth-term.c",
+  "file": "/home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/calculate-nth-term.c"
 }
 ]
