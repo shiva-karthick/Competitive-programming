@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/Competitive-programming/exercism/matching-brackets.c" "CMakeFiles/main.dir/exercism/matching-brackets.c.o" "gcc" "CMakeFiles/main.dir/exercism/matching-brackets.c.o.d"
+  "/home/shankar/Shiva/Competitive-programming/exercism/saddle-points.c" "CMakeFiles/main.dir/exercism/saddle-points.c.o" "gcc" "CMakeFiles/main.dir/exercism/saddle-points.c.o.d"
   )
 
 # Targets to which this target links.

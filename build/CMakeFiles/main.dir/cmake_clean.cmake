@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/exercism/matching-brackets.c.o"
-  "CMakeFiles/main.dir/exercism/matching-brackets.c.o.d"
+  "CMakeFiles/main.dir/exercism/saddle-points.c.o"
+  "CMakeFiles/main.dir/exercism/saddle-points.c.o.d"
   "main"
   "main.pdb"
 )

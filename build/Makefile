@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-exercism/matching-brackets.o: exercism/matching-brackets.c.o
-.PHONY : exercism/matching-brackets.o
+exercism/saddle-points.o: exercism/saddle-points.c.o
+.PHONY : exercism/saddle-points.o
 
 # target to build an object file
-exercism/matching-brackets.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/matching-brackets.c.o
-.PHONY : exercism/matching-brackets.c.o
+exercism/saddle-points.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/saddle-points.c.o
+.PHONY : exercism/saddle-points.c.o
 
-exercism/matching-brackets.i: exercism/matching-brackets.c.i
-.PHONY : exercism/matching-brackets.i
+exercism/saddle-points.i: exercism/saddle-points.c.i
+.PHONY : exercism/saddle-points.i
 
 # target to preprocess a source file
-exercism/matching-brackets.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/matching-brackets.c.i
-.PHONY : exercism/matching-brackets.c.i
+exercism/saddle-points.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/saddle-points.c.i
+.PHONY : exercism/saddle-points.c.i
 
-exercism/matching-brackets.s: exercism/matching-brackets.c.s
-.PHONY : exercism/matching-brackets.s
+exercism/saddle-points.s: exercism/saddle-points.c.s
+.PHONY : exercism/saddle-points.s
 
 # target to generate assembly for a file
-exercism/matching-brackets.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/matching-brackets.c.s
-.PHONY : exercism/matching-brackets.c.s
+exercism/saddle-points.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/saddle-points.c.s
+.PHONY : exercism/saddle-points.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... exercism/matching-brackets.o"
-	@echo "... exercism/matching-brackets.i"
-	@echo "... exercism/matching-brackets.s"
+	@echo "... exercism/saddle-points.o"
+	@echo "... exercism/saddle-points.i"
+	@echo "... exercism/saddle-points.s"
 .PHONY : help
 
 

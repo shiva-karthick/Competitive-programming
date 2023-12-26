@@ -1,6 +1,7 @@
 {
-    "cmake.configureOnOpen": false,
-    "files.associations": {
-        "common.h": "c"
-    }
+  "cmake.configureOnOpen": false,
+  "files.associations": {
+    "common.h": "c",
+    "stdint-gcc.h": "c"
+  }
 }
