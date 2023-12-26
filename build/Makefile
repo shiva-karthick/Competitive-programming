@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-hackerrank/Practice-C/calculate-nth-term.o: hackerrank/Practice-C/calculate-nth-term.c.o
-.PHONY : hackerrank/Practice-C/calculate-nth-term.o
+exercism/bob.o: exercism/bob.c.o
+.PHONY : exercism/bob.o
 
 # target to build an object file
-hackerrank/Practice-C/calculate-nth-term.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.o
-.PHONY : hackerrank/Practice-C/calculate-nth-term.c.o
+exercism/bob.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/bob.c.o
+.PHONY : exercism/bob.c.o
 
-hackerrank/Practice-C/calculate-nth-term.i: hackerrank/Practice-C/calculate-nth-term.c.i
-.PHONY : hackerrank/Practice-C/calculate-nth-term.i
+exercism/bob.i: exercism/bob.c.i
+.PHONY : exercism/bob.i
 
 # target to preprocess a source file
-hackerrank/Practice-C/calculate-nth-term.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.i
-.PHONY : hackerrank/Practice-C/calculate-nth-term.c.i
+exercism/bob.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/bob.c.i
+.PHONY : exercism/bob.c.i
 
-hackerrank/Practice-C/calculate-nth-term.s: hackerrank/Practice-C/calculate-nth-term.c.s
-.PHONY : hackerrank/Practice-C/calculate-nth-term.s
+exercism/bob.s: exercism/bob.c.s
+.PHONY : exercism/bob.s
 
 # target to generate assembly for a file
-hackerrank/Practice-C/calculate-nth-term.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/calculate-nth-term.c.s
-.PHONY : hackerrank/Practice-C/calculate-nth-term.c.s
+exercism/bob.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/bob.c.s
+.PHONY : exercism/bob.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... hackerrank/Practice-C/calculate-nth-term.o"
-	@echo "... hackerrank/Practice-C/calculate-nth-term.i"
-	@echo "... hackerrank/Practice-C/calculate-nth-term.s"
+	@echo "... exercism/bob.o"
+	@echo "... exercism/bob.i"
+	@echo "... exercism/bob.s"
 .PHONY : help
 
 

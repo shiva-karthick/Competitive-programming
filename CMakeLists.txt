@@ -25,7 +25,7 @@ project(Competitve-programming)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources hackerrank/Practice-C/calculate-nth-term.c)
+set(sources /home/shankar/Shiva/Competitive-programming/exercism/bob.c)
 add_executable(main ${sources})
 
 # This is for math.h tool: "-l m" which calling "libm.so"
