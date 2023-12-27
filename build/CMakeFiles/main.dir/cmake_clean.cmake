@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/exercism/bob.c.o"
-  "CMakeFiles/main.dir/exercism/bob.c.o.d"
+  "CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o"
+  "CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o.d"
   "main"
   "main.pdb"
 )

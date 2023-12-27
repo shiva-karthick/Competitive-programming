@@ -69,28 +69,28 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/exercism/bob.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/exercism/bob.c.o: ../exercism/bob.c
-CMakeFiles/main.dir/exercism/bob.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/exercism/bob.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/exercism/bob.c.o -MF CMakeFiles/main.dir/exercism/bob.c.o.d -o CMakeFiles/main.dir/exercism/bob.c.o -c /home/shankar/Shiva/Competitive-programming/exercism/bob.c
+CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o: ../hackerrank/Practice-C/digit-frequency.c
+CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o -MF CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o.d -o CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o -c /home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/digit-frequency.c
 
-CMakeFiles/main.dir/exercism/bob.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/exercism/bob.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shankar/Shiva/Competitive-programming/exercism/bob.c > CMakeFiles/main.dir/exercism/bob.c.i
+CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/digit-frequency.c > CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.i
 
-CMakeFiles/main.dir/exercism/bob.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/exercism/bob.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shankar/Shiva/Competitive-programming/exercism/bob.c -o CMakeFiles/main.dir/exercism/bob.c.s
+CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/digit-frequency.c -o CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/exercism/bob.c.o"
+"CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/exercism/bob.c.o
+main: CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shankar/Shiva/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main"

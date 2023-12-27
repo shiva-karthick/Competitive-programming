@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-exercism/bob.o: exercism/bob.c.o
-.PHONY : exercism/bob.o
+hackerrank/Practice-C/digit-frequency.o: hackerrank/Practice-C/digit-frequency.c.o
+.PHONY : hackerrank/Practice-C/digit-frequency.o
 
 # target to build an object file
-exercism/bob.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/bob.c.o
-.PHONY : exercism/bob.c.o
+hackerrank/Practice-C/digit-frequency.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o
+.PHONY : hackerrank/Practice-C/digit-frequency.c.o
 
-exercism/bob.i: exercism/bob.c.i
-.PHONY : exercism/bob.i
+hackerrank/Practice-C/digit-frequency.i: hackerrank/Practice-C/digit-frequency.c.i
+.PHONY : hackerrank/Practice-C/digit-frequency.i
 
 # target to preprocess a source file
-exercism/bob.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/bob.c.i
-.PHONY : exercism/bob.c.i
+hackerrank/Practice-C/digit-frequency.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.i
+.PHONY : hackerrank/Practice-C/digit-frequency.c.i
 
-exercism/bob.s: exercism/bob.c.s
-.PHONY : exercism/bob.s
+hackerrank/Practice-C/digit-frequency.s: hackerrank/Practice-C/digit-frequency.c.s
+.PHONY : hackerrank/Practice-C/digit-frequency.s
 
 # target to generate assembly for a file
-exercism/bob.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/exercism/bob.c.s
-.PHONY : exercism/bob.c.s
+hackerrank/Practice-C/digit-frequency.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.s
+.PHONY : hackerrank/Practice-C/digit-frequency.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... exercism/bob.o"
-	@echo "... exercism/bob.i"
-	@echo "... exercism/bob.s"
+	@echo "... hackerrank/Practice-C/digit-frequency.o"
+	@echo "... hackerrank/Practice-C/digit-frequency.i"
+	@echo "... hackerrank/Practice-C/digit-frequency.s"
 .PHONY : help
 
 

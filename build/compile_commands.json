@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/shankar/Shiva/Competitive-programming/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/exercism/bob.c.o -c /home/shankar/Shiva/Competitive-programming/exercism/bob.c",
-  "file": "/home/shankar/Shiva/Competitive-programming/exercism/bob.c"
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o -c /home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/digit-frequency.c",
+  "file": "/home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/digit-frequency.c"
 }
 ]

@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/main.dir/exercism/bob.c.o -o main  -lm 
+/usr/bin/gcc -g CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o -o main  -lm 
