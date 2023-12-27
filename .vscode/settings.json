@@ -10,6 +10,7 @@
     "span": "c",
     "regex": "c",
     "type_traits": "c",
-    "stacktrace": "c"
+    "stacktrace": "c",
+    "stdlib.h": "c"
   }
 }

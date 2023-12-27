@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/shankar/Shiva/Competitive-programming/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o -c /home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/digit-frequency.c",
-  "file": "/home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/digit-frequency.c"
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/kattis/Birthday-Memorisation/main.c.o -c /home/shankar/Shiva/Competitive-programming/kattis/Birthday-Memorisation/main.c",
+  "file": "/home/shankar/Shiva/Competitive-programming/kattis/Birthday-Memorisation/main.c"
 }
 ]

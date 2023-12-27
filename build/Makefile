@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-hackerrank/Practice-C/digit-frequency.o: hackerrank/Practice-C/digit-frequency.c.o
-.PHONY : hackerrank/Practice-C/digit-frequency.o
+kattis/Birthday-Memorisation/main.o: kattis/Birthday-Memorisation/main.c.o
+.PHONY : kattis/Birthday-Memorisation/main.o
 
 # target to build an object file
-hackerrank/Practice-C/digit-frequency.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.o
-.PHONY : hackerrank/Practice-C/digit-frequency.c.o
+kattis/Birthday-Memorisation/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Birthday-Memorisation/main.c.o
+.PHONY : kattis/Birthday-Memorisation/main.c.o
 
-hackerrank/Practice-C/digit-frequency.i: hackerrank/Practice-C/digit-frequency.c.i
-.PHONY : hackerrank/Practice-C/digit-frequency.i
+kattis/Birthday-Memorisation/main.i: kattis/Birthday-Memorisation/main.c.i
+.PHONY : kattis/Birthday-Memorisation/main.i
 
 # target to preprocess a source file
-hackerrank/Practice-C/digit-frequency.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.i
-.PHONY : hackerrank/Practice-C/digit-frequency.c.i
+kattis/Birthday-Memorisation/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Birthday-Memorisation/main.c.i
+.PHONY : kattis/Birthday-Memorisation/main.c.i
 
-hackerrank/Practice-C/digit-frequency.s: hackerrank/Practice-C/digit-frequency.c.s
-.PHONY : hackerrank/Practice-C/digit-frequency.s
+kattis/Birthday-Memorisation/main.s: kattis/Birthday-Memorisation/main.c.s
+.PHONY : kattis/Birthday-Memorisation/main.s
 
 # target to generate assembly for a file
-hackerrank/Practice-C/digit-frequency.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/digit-frequency.c.s
-.PHONY : hackerrank/Practice-C/digit-frequency.c.s
+kattis/Birthday-Memorisation/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Birthday-Memorisation/main.c.s
+.PHONY : kattis/Birthday-Memorisation/main.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... hackerrank/Practice-C/digit-frequency.o"
-	@echo "... hackerrank/Practice-C/digit-frequency.i"
-	@echo "... hackerrank/Practice-C/digit-frequency.s"
+	@echo "... kattis/Birthday-Memorisation/main.o"
+	@echo "... kattis/Birthday-Memorisation/main.i"
+	@echo "... kattis/Birthday-Memorisation/main.s"
 .PHONY : help
 
 

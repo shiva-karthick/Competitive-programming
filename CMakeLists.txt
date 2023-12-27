@@ -25,7 +25,8 @@ project(Competitve-programming)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources /home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/digit-frequency.c)
+set(sources /home/shankar/Shiva/Competitive-programming/kattis/Birthday-Memorisation/main.c)
+
 add_executable(main ${sources})
 
 # This is for math.h tool: "-l m" which calling "libm.so"
