@@ -1,19 +1,23 @@
-#include "../../header-files/common.h"
+#include "/home/shankar/Shiva/Competitive-programming/header-files/common.h"
 
-/**
- * Return an array of arrays of size *returnSize.
- * The sizes of the arrays are returned as *returnColumnSizes array.
- * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
- */
-int **floodFill(int **image, int imageSize, int *imageColSize, int sr, int sc, int color, int *returnSize, int **returnColumnSizes)
+void checkImage(int **image, int row, int col, int r, int c, int value, int newColor)
 {
-    *returnSize = imageSize; /* returnSize is a pointer dereferenced to hold a value */
-    *returnColumnSizes = malloc(sizeof(int) * imageSize);
+    if (r < 0 || r >= row || c < 0 || c >= col || image[r][c] == newColor || image[r][c] != value)
+        return;
+    image[r][c] = newColor;
+    checkImage(image, row, col, r + 1, c, value, newColor);
+    checkImage(image, row, col, r - 1, c, value, newColor);
+    checkImage(image, row, col, r, c + 1, value, newColor);
+    checkImage(image, row, col, r, c - 1, value, newColor);
+}
+
+int **floodFill(int **image, int imageSize, int *imageColSize, int sr, int sc, int newColor, int *returnSize, int **returnColumnSizes)
+{
+    checkImage(image, imageSize, *imageColSize, sr, sc, image[sr][sc], newColor);
+    *returnSize = imageSize;
+    *returnColumnSizes = (int *)malloc(imageSize * sizeof(int));
     for (int i = 0; i < imageSize; i++)
-        (*returnColumnSizes)[i] = imageColSize[i];
-
-    /* print  */
-
+        (*returnColumnSizes)[i] = *imageColSize;
     return image;
 }
 
@@ -26,46 +30,22 @@ int main(int argc, char const *argv[])
     static const int sc = 1;
     static const int color = 2;
 
-    /* int **result = floodFill(image, imageSize, imageColSize, sr, sc, color, NULL, NULL); */
+    int returnSize;
+    int *returnColumnSizes = (int *)malloc(imageSize * sizeof(int));
+    for (int i = 0; i < imageSize; i += 1)
     {
-        int imageColSize[] = {3, 3, 3};
-        // Allocate memory for the original image
-        int **originalImage = (int **)malloc(imageSize * sizeof(int *));
-        for (int i = 0; i < imageSize; i++)
-        {
-            originalImage[i] = (int *)malloc(*imageColSize * sizeof(int));
-        }
-
-        // Populate the original image with values
-        for (int i = 0; i < imageSize; i++)
-        {
-            for (int j = 0; j < *imageColSize; j++)
-            {
-                originalImage[i][j] = 5;
-            }
-        }
-
-        // Print the original image
-        printf("Original image:\n");
-        for (int i = 0; i < imageSize; i++)
-        {
-            for (int j = 0; j < *imageColSize; j++)
-            {
-                printf("%d ", originalImage[i][j]);
-            }
-            printf("\n");
-        }
-
-        // Free memory
-        for (int i = 0; i < imageSize; i++)
-        {
-            free(originalImage[i]);
-        }
-        free(originalImage);
+        returnColumnSizes[i] = 1;
     }
 
-    // Free memory (remember to release all allocated memory)
-    // ... (deallocate image, returnColumnSizes, and result)
+    int **actual = floodFill((int **)image, imageSize, imageColSize, sr, sc, color, &returnSize, returnColumnSizes);
+
+    // print actual
+    for (int i = 0; i < imageSize; i++)
+    {
+        for (int j = 0; j < imageColSize[i]; j++)
+            printf("%d ", actual[i][j]);
+        printf("\n");
+    }
 
     return 0;
 }

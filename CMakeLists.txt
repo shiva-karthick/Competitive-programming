@@ -25,7 +25,7 @@ project(Competitve-programming)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources /home/shankar/Shiva/Competitive-programming/kattis/Birthday-Memorisation/main.c)
+set(sources /home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/Boxes-through-a-Tunnel.c)
 
 add_executable(main ${sources})
 

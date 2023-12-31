@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-kattis/Birthday-Memorisation/main.o: kattis/Birthday-Memorisation/main.c.o
-.PHONY : kattis/Birthday-Memorisation/main.o
+hackerrank/Practice-C/Boxes-through-a-Tunnel.o: hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o
+.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.o
 
 # target to build an object file
-kattis/Birthday-Memorisation/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Birthday-Memorisation/main.c.o
-.PHONY : kattis/Birthday-Memorisation/main.c.o
+hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o
+.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o
 
-kattis/Birthday-Memorisation/main.i: kattis/Birthday-Memorisation/main.c.i
-.PHONY : kattis/Birthday-Memorisation/main.i
+hackerrank/Practice-C/Boxes-through-a-Tunnel.i: hackerrank/Practice-C/Boxes-through-a-Tunnel.c.i
+.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.i
 
 # target to preprocess a source file
-kattis/Birthday-Memorisation/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Birthday-Memorisation/main.c.i
-.PHONY : kattis/Birthday-Memorisation/main.c.i
+hackerrank/Practice-C/Boxes-through-a-Tunnel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/Boxes-through-a-Tunnel.c.i
+.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.c.i
 
-kattis/Birthday-Memorisation/main.s: kattis/Birthday-Memorisation/main.c.s
-.PHONY : kattis/Birthday-Memorisation/main.s
+hackerrank/Practice-C/Boxes-through-a-Tunnel.s: hackerrank/Practice-C/Boxes-through-a-Tunnel.c.s
+.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.s
 
 # target to generate assembly for a file
-kattis/Birthday-Memorisation/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Birthday-Memorisation/main.c.s
-.PHONY : kattis/Birthday-Memorisation/main.c.s
+hackerrank/Practice-C/Boxes-through-a-Tunnel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/Boxes-through-a-Tunnel.c.s
+.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... kattis/Birthday-Memorisation/main.o"
-	@echo "... kattis/Birthday-Memorisation/main.i"
-	@echo "... kattis/Birthday-Memorisation/main.s"
+	@echo "... hackerrank/Practice-C/Boxes-through-a-Tunnel.o"
+	@echo "... hackerrank/Practice-C/Boxes-through-a-Tunnel.i"
+	@echo "... hackerrank/Practice-C/Boxes-through-a-Tunnel.s"
 .PHONY : help
 
 

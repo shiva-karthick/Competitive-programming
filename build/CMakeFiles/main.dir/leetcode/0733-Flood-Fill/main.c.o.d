@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/leetcode/0733-Flood-Fill/main.c.o: \
  /home/shankar/Shiva/Competitive-programming/leetcode/0733-Flood-Fill/main.c \
  /usr/include/stdc-predef.h \
- /home/shankar/Shiva/Competitive-programming/leetcode/0733-Flood-Fill/../../header-files/common.h \
+ /home/shankar/Shiva/Competitive-programming/header-files/common.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

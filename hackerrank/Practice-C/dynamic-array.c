@@ -28,9 +28,6 @@ So this time: books[1]++ ie. books[1] will be 4,
 and reallocate memory to pages for 4 integers and add 57 at index 3 ie. pages[3] = 57.
 */
 
-#include <stdio.h>
-#include <stdlib.h>
-
 /*
  * This stores the total number of books in each shelf.
  */
