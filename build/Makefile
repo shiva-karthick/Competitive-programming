@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-hackerrank/Practice-C/Boxes-through-a-Tunnel.o: hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o
-.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.o
+kattis/Average-Character/main.o: kattis/Average-Character/main.c.o
+.PHONY : kattis/Average-Character/main.o
 
 # target to build an object file
-hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o
-.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o
+kattis/Average-Character/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Average-Character/main.c.o
+.PHONY : kattis/Average-Character/main.c.o
 
-hackerrank/Practice-C/Boxes-through-a-Tunnel.i: hackerrank/Practice-C/Boxes-through-a-Tunnel.c.i
-.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.i
+kattis/Average-Character/main.i: kattis/Average-Character/main.c.i
+.PHONY : kattis/Average-Character/main.i
 
 # target to preprocess a source file
-hackerrank/Practice-C/Boxes-through-a-Tunnel.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/Boxes-through-a-Tunnel.c.i
-.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.c.i
+kattis/Average-Character/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Average-Character/main.c.i
+.PHONY : kattis/Average-Character/main.c.i
 
-hackerrank/Practice-C/Boxes-through-a-Tunnel.s: hackerrank/Practice-C/Boxes-through-a-Tunnel.c.s
-.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.s
+kattis/Average-Character/main.s: kattis/Average-Character/main.c.s
+.PHONY : kattis/Average-Character/main.s
 
 # target to generate assembly for a file
-hackerrank/Practice-C/Boxes-through-a-Tunnel.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/hackerrank/Practice-C/Boxes-through-a-Tunnel.c.s
-.PHONY : hackerrank/Practice-C/Boxes-through-a-Tunnel.c.s
+kattis/Average-Character/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Average-Character/main.c.s
+.PHONY : kattis/Average-Character/main.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... hackerrank/Practice-C/Boxes-through-a-Tunnel.o"
-	@echo "... hackerrank/Practice-C/Boxes-through-a-Tunnel.i"
-	@echo "... hackerrank/Practice-C/Boxes-through-a-Tunnel.s"
+	@echo "... kattis/Average-Character/main.o"
+	@echo "... kattis/Average-Character/main.i"
+	@echo "... kattis/Average-Character/main.s"
 .PHONY : help
 
 

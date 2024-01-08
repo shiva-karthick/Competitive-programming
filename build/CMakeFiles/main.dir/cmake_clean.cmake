@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o"
-  "CMakeFiles/main.dir/hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o.d"
+  "CMakeFiles/main.dir/kattis/Average-Character/main.c.o"
+  "CMakeFiles/main.dir/kattis/Average-Character/main.c.o.d"
   "main"
   "main.pdb"
 )

@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/main.dir/hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o -o main  -lm 
+/usr/bin/gcc -g CMakeFiles/main.dir/kattis/Average-Character/main.c.o -o main  -lm 

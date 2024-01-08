@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/shankar/Shiva/Competitive-programming/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/hackerrank/Practice-C/Boxes-through-a-Tunnel.c.o -c /home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/Boxes-through-a-Tunnel.c",
-  "file": "/home/shankar/Shiva/Competitive-programming/hackerrank/Practice-C/Boxes-through-a-Tunnel.c"
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/kattis/Average-Character/main.c.o -c /home/shankar/Shiva/Competitive-programming/kattis/Average-Character/main.c",
+  "file": "/home/shankar/Shiva/Competitive-programming/kattis/Average-Character/main.c"
 }
 ]
