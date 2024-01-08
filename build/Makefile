@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-kattis/Average-Character/main.o: kattis/Average-Character/main.c.o
-.PHONY : kattis/Average-Character/main.o
+kattis/code-save-lives/main.o: kattis/code-save-lives/main.c.o
+.PHONY : kattis/code-save-lives/main.o
 
 # target to build an object file
-kattis/Average-Character/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Average-Character/main.c.o
-.PHONY : kattis/Average-Character/main.c.o
+kattis/code-save-lives/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/code-save-lives/main.c.o
+.PHONY : kattis/code-save-lives/main.c.o
 
-kattis/Average-Character/main.i: kattis/Average-Character/main.c.i
-.PHONY : kattis/Average-Character/main.i
+kattis/code-save-lives/main.i: kattis/code-save-lives/main.c.i
+.PHONY : kattis/code-save-lives/main.i
 
 # target to preprocess a source file
-kattis/Average-Character/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Average-Character/main.c.i
-.PHONY : kattis/Average-Character/main.c.i
+kattis/code-save-lives/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/code-save-lives/main.c.i
+.PHONY : kattis/code-save-lives/main.c.i
 
-kattis/Average-Character/main.s: kattis/Average-Character/main.c.s
-.PHONY : kattis/Average-Character/main.s
+kattis/code-save-lives/main.s: kattis/code-save-lives/main.c.s
+.PHONY : kattis/code-save-lives/main.s
 
 # target to generate assembly for a file
-kattis/Average-Character/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/Average-Character/main.c.s
-.PHONY : kattis/Average-Character/main.c.s
+kattis/code-save-lives/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/code-save-lives/main.c.s
+.PHONY : kattis/code-save-lives/main.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... kattis/Average-Character/main.o"
-	@echo "... kattis/Average-Character/main.i"
-	@echo "... kattis/Average-Character/main.s"
+	@echo "... kattis/code-save-lives/main.o"
+	@echo "... kattis/code-save-lives/main.i"
+	@echo "... kattis/code-save-lives/main.s"
 .PHONY : help
 
 

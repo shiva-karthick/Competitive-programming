@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/shankar/Shiva/Competitive-programming/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/kattis/Average-Character/main.c.o -c /home/shankar/Shiva/Competitive-programming/kattis/Average-Character/main.c",
-  "file": "/home/shankar/Shiva/Competitive-programming/kattis/Average-Character/main.c"
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/kattis/code-save-lives/main.c.o -c /home/shankar/Shiva/Competitive-programming/kattis/code-save-lives/main.c",
+  "file": "/home/shankar/Shiva/Competitive-programming/kattis/code-save-lives/main.c"
 }
 ]
