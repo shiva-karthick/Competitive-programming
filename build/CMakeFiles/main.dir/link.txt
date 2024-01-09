@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/main.dir/kattis/double-password/main.c.o -o main  -lm 
+/usr/bin/gcc -g CMakeFiles/main.dir/kattis/liquid-assets/main.c.o -o main  -lm 

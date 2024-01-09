@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/shankar/Shiva/Competitive-programming/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/kattis/double-password/main.c.o -c /home/shankar/Shiva/Competitive-programming/kattis/double-password/main.c",
-  "file": "/home/shankar/Shiva/Competitive-programming/kattis/double-password/main.c"
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/kattis/liquid-assets/main.c.o -c /home/shankar/Shiva/Competitive-programming/kattis/liquid-assets/main.c",
+  "file": "/home/shankar/Shiva/Competitive-programming/kattis/liquid-assets/main.c"
 }
 ]

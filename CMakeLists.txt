@@ -25,7 +25,7 @@ project(Competitve-programming)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources /home/shankar/Shiva/Competitive-programming/kattis/double-password/main.c)
+set(sources /home/shankar/Shiva/Competitive-programming/kattis/liquid-assets/main.c)
 
 add_executable(main ${sources})
 

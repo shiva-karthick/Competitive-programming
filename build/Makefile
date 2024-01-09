@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-kattis/double-password/main.o: kattis/double-password/main.c.o
-.PHONY : kattis/double-password/main.o
+kattis/liquid-assets/main.o: kattis/liquid-assets/main.c.o
+.PHONY : kattis/liquid-assets/main.o
 
 # target to build an object file
-kattis/double-password/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/double-password/main.c.o
-.PHONY : kattis/double-password/main.c.o
+kattis/liquid-assets/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/liquid-assets/main.c.o
+.PHONY : kattis/liquid-assets/main.c.o
 
-kattis/double-password/main.i: kattis/double-password/main.c.i
-.PHONY : kattis/double-password/main.i
+kattis/liquid-assets/main.i: kattis/liquid-assets/main.c.i
+.PHONY : kattis/liquid-assets/main.i
 
 # target to preprocess a source file
-kattis/double-password/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/double-password/main.c.i
-.PHONY : kattis/double-password/main.c.i
+kattis/liquid-assets/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/liquid-assets/main.c.i
+.PHONY : kattis/liquid-assets/main.c.i
 
-kattis/double-password/main.s: kattis/double-password/main.c.s
-.PHONY : kattis/double-password/main.s
+kattis/liquid-assets/main.s: kattis/liquid-assets/main.c.s
+.PHONY : kattis/liquid-assets/main.s
 
 # target to generate assembly for a file
-kattis/double-password/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/double-password/main.c.s
-.PHONY : kattis/double-password/main.c.s
+kattis/liquid-assets/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/liquid-assets/main.c.s
+.PHONY : kattis/liquid-assets/main.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... kattis/double-password/main.o"
-	@echo "... kattis/double-password/main.i"
-	@echo "... kattis/double-password/main.s"
+	@echo "... kattis/liquid-assets/main.o"
+	@echo "... kattis/liquid-assets/main.i"
+	@echo "... kattis/liquid-assets/main.s"
 .PHONY : help
 
 
