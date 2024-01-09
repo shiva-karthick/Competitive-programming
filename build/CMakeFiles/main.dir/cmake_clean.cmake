@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/kattis/social-distancing/main2.c.o"
-  "CMakeFiles/main.dir/kattis/social-distancing/main2.c.o.d"
+  "CMakeFiles/main.dir/kattis/double-password/main.c.o"
+  "CMakeFiles/main.dir/kattis/double-password/main.c.o.d"
   "main"
   "main.pdb"
 )

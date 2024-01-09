@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/shankar/Shiva/Competitive-programming/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/kattis/social-distancing/main2.c.o -c /home/shankar/Shiva/Competitive-programming/kattis/social-distancing/main2.c",
-  "file": "/home/shankar/Shiva/Competitive-programming/kattis/social-distancing/main2.c"
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/main.dir/kattis/double-password/main.c.o -c /home/shankar/Shiva/Competitive-programming/kattis/double-password/main.c",
+  "file": "/home/shankar/Shiva/Competitive-programming/kattis/double-password/main.c"
 }
 ]

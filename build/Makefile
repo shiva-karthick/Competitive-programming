@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-kattis/social-distancing/main2.o: kattis/social-distancing/main2.c.o
-.PHONY : kattis/social-distancing/main2.o
+kattis/double-password/main.o: kattis/double-password/main.c.o
+.PHONY : kattis/double-password/main.o
 
 # target to build an object file
-kattis/social-distancing/main2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/social-distancing/main2.c.o
-.PHONY : kattis/social-distancing/main2.c.o
+kattis/double-password/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/double-password/main.c.o
+.PHONY : kattis/double-password/main.c.o
 
-kattis/social-distancing/main2.i: kattis/social-distancing/main2.c.i
-.PHONY : kattis/social-distancing/main2.i
+kattis/double-password/main.i: kattis/double-password/main.c.i
+.PHONY : kattis/double-password/main.i
 
 # target to preprocess a source file
-kattis/social-distancing/main2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/social-distancing/main2.c.i
-.PHONY : kattis/social-distancing/main2.c.i
+kattis/double-password/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/double-password/main.c.i
+.PHONY : kattis/double-password/main.c.i
 
-kattis/social-distancing/main2.s: kattis/social-distancing/main2.c.s
-.PHONY : kattis/social-distancing/main2.s
+kattis/double-password/main.s: kattis/double-password/main.c.s
+.PHONY : kattis/double-password/main.s
 
 # target to generate assembly for a file
-kattis/social-distancing/main2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/social-distancing/main2.c.s
-.PHONY : kattis/social-distancing/main2.c.s
+kattis/double-password/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/double-password/main.c.s
+.PHONY : kattis/double-password/main.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... kattis/social-distancing/main2.o"
-	@echo "... kattis/social-distancing/main2.i"
-	@echo "... kattis/social-distancing/main2.s"
+	@echo "... kattis/double-password/main.o"
+	@echo "... kattis/double-password/main.i"
+	@echo "... kattis/double-password/main.s"
 .PHONY : help
 
 
