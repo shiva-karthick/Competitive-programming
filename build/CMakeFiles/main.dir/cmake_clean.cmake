@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/kattis/code-save-lives/main.c.o"
-  "CMakeFiles/main.dir/kattis/code-save-lives/main.c.o.d"
+  "CMakeFiles/main.dir/kattis/social-distancing/main2.c.o"
+  "CMakeFiles/main.dir/kattis/social-distancing/main2.c.o.d"
   "main"
   "main.pdb"
 )

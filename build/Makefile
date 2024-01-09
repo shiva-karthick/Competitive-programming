@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-kattis/code-save-lives/main.o: kattis/code-save-lives/main.c.o
-.PHONY : kattis/code-save-lives/main.o
+kattis/social-distancing/main2.o: kattis/social-distancing/main2.c.o
+.PHONY : kattis/social-distancing/main2.o
 
 # target to build an object file
-kattis/code-save-lives/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/code-save-lives/main.c.o
-.PHONY : kattis/code-save-lives/main.c.o
+kattis/social-distancing/main2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/social-distancing/main2.c.o
+.PHONY : kattis/social-distancing/main2.c.o
 
-kattis/code-save-lives/main.i: kattis/code-save-lives/main.c.i
-.PHONY : kattis/code-save-lives/main.i
+kattis/social-distancing/main2.i: kattis/social-distancing/main2.c.i
+.PHONY : kattis/social-distancing/main2.i
 
 # target to preprocess a source file
-kattis/code-save-lives/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/code-save-lives/main.c.i
-.PHONY : kattis/code-save-lives/main.c.i
+kattis/social-distancing/main2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/social-distancing/main2.c.i
+.PHONY : kattis/social-distancing/main2.c.i
 
-kattis/code-save-lives/main.s: kattis/code-save-lives/main.c.s
-.PHONY : kattis/code-save-lives/main.s
+kattis/social-distancing/main2.s: kattis/social-distancing/main2.c.s
+.PHONY : kattis/social-distancing/main2.s
 
 # target to generate assembly for a file
-kattis/code-save-lives/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/code-save-lives/main.c.s
-.PHONY : kattis/code-save-lives/main.c.s
+kattis/social-distancing/main2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/social-distancing/main2.c.s
+.PHONY : kattis/social-distancing/main2.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... kattis/code-save-lives/main.o"
-	@echo "... kattis/code-save-lives/main.i"
-	@echo "... kattis/code-save-lives/main.s"
+	@echo "... kattis/social-distancing/main2.o"
+	@echo "... kattis/social-distancing/main2.i"
+	@echo "... kattis/social-distancing/main2.s"
 .PHONY : help
 
 

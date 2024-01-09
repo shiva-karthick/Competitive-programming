@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/main.dir/kattis/code-save-lives/main.c.o -o main  -lm 
+/usr/bin/gcc -g CMakeFiles/main.dir/kattis/social-distancing/main2.c.o -o main  -lm 
