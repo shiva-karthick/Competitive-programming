@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shankar/Shiva/Competitive-programming/kattis/liquid-assets/main.c" "CMakeFiles/main.dir/kattis/liquid-assets/main.c.o" "gcc" "CMakeFiles/main.dir/kattis/liquid-assets/main.c.o.d"
+  "/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c" "CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o" "gcc" "CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o.d"
   )
 
 # Targets to which this target links.

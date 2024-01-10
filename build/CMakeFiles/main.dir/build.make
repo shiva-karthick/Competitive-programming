@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shankar/Shiva/Competitive-programming
+CMAKE_SOURCE_DIR = /home/shankar/Shiva/Competitive-programming/build
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/shankar/Shiva/Competitive-programming/build
@@ -69,28 +69,28 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/kattis/liquid-assets/main.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/kattis/liquid-assets/main.c.o: ../kattis/liquid-assets/main.c
-CMakeFiles/main.dir/kattis/liquid-assets/main.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/kattis/liquid-assets/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/kattis/liquid-assets/main.c.o -MF CMakeFiles/main.dir/kattis/liquid-assets/main.c.o.d -o CMakeFiles/main.dir/kattis/liquid-assets/main.c.o -c /home/shankar/Shiva/Competitive-programming/kattis/liquid-assets/main.c
+CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o: /home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c
+CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shankar/Shiva/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o"
+	/bin/clang-17 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o -MF CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o.d -o CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o -c /home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c
 
-CMakeFiles/main.dir/kattis/liquid-assets/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/kattis/liquid-assets/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shankar/Shiva/Competitive-programming/kattis/liquid-assets/main.c > CMakeFiles/main.dir/kattis/liquid-assets/main.c.i
+CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i"
+	/bin/clang-17 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c > CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i
 
-CMakeFiles/main.dir/kattis/liquid-assets/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/kattis/liquid-assets/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shankar/Shiva/Competitive-programming/kattis/liquid-assets/main.c -o CMakeFiles/main.dir/kattis/liquid-assets/main.c.s
+CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s"
+	/bin/clang-17 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c -o CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/kattis/liquid-assets/main.c.o"
+"CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/kattis/liquid-assets/main.c.o
+main: CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shankar/Shiva/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main"
@@ -105,6 +105,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/shankar/Shiva/Competitive-programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shankar/Shiva/Competitive-programming /home/shankar/Shiva/Competitive-programming /home/shankar/Shiva/Competitive-programming/build /home/shankar/Shiva/Competitive-programming/build /home/shankar/Shiva/Competitive-programming/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shankar/Shiva/Competitive-programming/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shankar/Shiva/Competitive-programming/build /home/shankar/Shiva/Competitive-programming/build /home/shankar/Shiva/Competitive-programming/build /home/shankar/Shiva/Competitive-programming/build /home/shankar/Shiva/Competitive-programming/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

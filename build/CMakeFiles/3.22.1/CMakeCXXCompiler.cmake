@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "/usr/bin/g++")
+set(CMAKE_CXX_COMPILER "/bin/clang++-17")
 set(CMAKE_CXX_COMPILER_ARG1 "")
-set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "11.4.0")
+set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_VERSION "17.0.6")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")
@@ -16,19 +16,19 @@ set(CMAKE_CXX23_COMPILE_FEATURES "cxx_std_23")
 
 set(CMAKE_CXX_PLATFORM_ID "Linux")
 set(CMAKE_CXX_SIMULATE_ID "")
-set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")
+set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "GNU")
 set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
 
-set(CMAKE_AR "/usr/bin/ar")
-set(CMAKE_CXX_COMPILER_AR "/usr/bin/gcc-ar-11")
-set(CMAKE_RANLIB "/usr/bin/ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/gcc-ranlib-11")
-set(CMAKE_LINKER "/usr/bin/ld")
+set(CMAKE_AR "/bin/llvm-ar-17")
+set(CMAKE_CXX_COMPILER_AR "/bin/llvm-ar-17")
+set(CMAKE_RANLIB "/bin/llvm-ranlib-17")
+set(CMAKE_CXX_COMPILER_RANLIB "/bin/llvm-ranlib-17")
+set(CMAKE_LINKER "/bin/ld.lld-17")
 set(CMAKE_MT "")
-set(CMAKE_COMPILER_IS_GNUCXX 1)
+set(CMAKE_COMPILER_IS_GNUCXX )
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
 set(CMAKE_CXX_ABI_COMPILED TRUE)
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/include/c++/12;/include/x86_64-linux-gnu/c++/12;/include/c++/12/backward;/usr/lib/llvm-17/lib/clang/17/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/lib/gcc/x86_64-linux-gnu/12;/lib64;/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib64;/lib;/usr/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

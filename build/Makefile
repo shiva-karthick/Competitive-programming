@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shankar/Shiva/Competitive-programming
+CMAKE_SOURCE_DIR = /home/shankar/Shiva/Competitive-programming/build
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/shankar/Shiva/Competitive-programming/build
@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-kattis/liquid-assets/main.o: kattis/liquid-assets/main.c.o
-.PHONY : kattis/liquid-assets/main.o
+home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.o: home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.o
 
 # target to build an object file
-kattis/liquid-assets/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/liquid-assets/main.c.o
-.PHONY : kattis/liquid-assets/main.c.o
+home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o
 
-kattis/liquid-assets/main.i: kattis/liquid-assets/main.c.i
-.PHONY : kattis/liquid-assets/main.i
+home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.i: home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.i
 
 # target to preprocess a source file
-kattis/liquid-assets/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/liquid-assets/main.c.i
-.PHONY : kattis/liquid-assets/main.c.i
+home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i
 
-kattis/liquid-assets/main.s: kattis/liquid-assets/main.c.s
-.PHONY : kattis/liquid-assets/main.s
+home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.s: home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.s
 
 # target to generate assembly for a file
-kattis/liquid-assets/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/kattis/liquid-assets/main.c.s
-.PHONY : kattis/liquid-assets/main.c.s
+home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... kattis/liquid-assets/main.o"
-	@echo "... kattis/liquid-assets/main.i"
-	@echo "... kattis/liquid-assets/main.s"
+	@echo "... home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.o"
+	@echo "... home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.i"
+	@echo "... home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/main.dir/kattis/liquid-assets/main.c.o -o main  -lm 
+/bin/clang-17 CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o -o main  -lm 

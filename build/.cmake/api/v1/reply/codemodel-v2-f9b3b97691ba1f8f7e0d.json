@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-03b3c89fb444389b6e91.json",
+					"jsonFile" : "target-main-0323449455dd4e78adbb.json",
 					"name" : "main",
 					"projectIndex" : 0
 				}
@@ -50,7 +50,7 @@
 	"paths" : 
 	{
 		"build" : "/home/shankar/Shiva/Competitive-programming/build",
-		"source" : "/home/shankar/Shiva/Competitive-programming"
+		"source" : "/home/shankar/Shiva/Competitive-programming/build"
 	},
 	"version" : 
 	{
