@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.o: home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o
-.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.o
+home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.o: home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.o
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.o
 
 # target to build an object file
-home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o
-.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.o
+home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.o
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.o
 
-home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.i: home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i
-.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.i
+home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.i: home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.i
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.i
 
 # target to preprocess a source file
-home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i
-.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.i
+home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.i
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.i
 
-home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.s: home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s
-.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.s
+home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.s: home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.s
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.s
 
 # target to generate assembly for a file
-home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s
-.PHONY : home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c.s
+home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.s
+.PHONY : home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.o"
-	@echo "... home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.i"
-	@echo "... home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.s"
+	@echo "... home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.o"
+	@echo "... home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.i"
+	@echo "... home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.s"
 .PHONY : help
 
 

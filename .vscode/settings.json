@@ -11,6 +11,7 @@
     "regex": "c",
     "type_traits": "c",
     "stacktrace": "c",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "algorithm": "cpp"
   }
 }

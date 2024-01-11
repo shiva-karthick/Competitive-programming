@@ -27,7 +27,7 @@ project(Competitve-programming)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources /home/shankar/Shiva/Competitive-programming/kattis/count-the-vowels/main.c)
+set(sources /home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp)
 
 add_executable(main ${sources})
 
