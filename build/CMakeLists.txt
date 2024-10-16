@@ -27,7 +27,7 @@ project(Competitve-programming)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources /home/shankar/Shiva/Competitive-programming/kattis/Successful-Zoom/successfulzoom.cpp)
+set(sources /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c)
 
 add_executable(main ${sources})
 
