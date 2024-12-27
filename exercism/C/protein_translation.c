@@ -38,8 +38,9 @@ proteins_t proteins(const char *const rna)
 {
     // The parameter rna is a pointer to a constant character (string) that itself is a constant.
     // The function proteins accepts a constant pointer to a constant character array (const char *const rna), meaning it can read the RNA sequence but cannot modify it.
-    // It returns a value of type proteins_t, which is likely a structure or type representing information about proteins derived from the RNA sequence.
     assert(rna);
+
+    // Declare a variable of the return type.
     proteins_t proteins = {
         true,
         0,
@@ -47,11 +48,11 @@ proteins_t proteins(const char *const rna)
     };
 
     size_t length = strlen(rna);
-    printf("length is : %zu \n", length);
+    assert(length != 0);
 
     for (u_int64_t index = 0; index < length; index += 3)
     {
-        char buffer[3 + 1]; // Need to account for the NULL character
+        char buffer[3 + 1]; // ! Need to account for the NULL character
         memcpy(buffer, &rna[index], 3);
         protein_t protein = translate(buffer);
 

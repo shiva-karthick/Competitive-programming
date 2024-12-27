@@ -69,28 +69,28 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o: /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c
-CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o"
-	/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o -MF CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o.d -o CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o -c /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c
+CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o: /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c
+CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o"
+	/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o -MF CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o.d -o CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o -c /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c
 
-CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.i"
-	/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c > CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.i
+CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.i"
+	/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c > CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.i
 
-CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.s"
-	/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c -o CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.s
+CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.s"
+	/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c -o CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o"
+"CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o
+main: CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main"

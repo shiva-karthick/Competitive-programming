@@ -27,7 +27,7 @@ project(Competitve-programming)
 # link_directories(/usr/local/lib)
 
 # ----- 4. File to compile
-set(sources /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c)
+set(sources /Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c)
 
 add_executable(main ${sources})
 

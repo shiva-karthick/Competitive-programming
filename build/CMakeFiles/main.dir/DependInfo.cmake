@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c" "CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o" "gcc" "CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o.d"
+  "/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c" "CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o" "gcc" "CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

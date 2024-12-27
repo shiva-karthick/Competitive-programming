@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.o: Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o
-.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.o
+Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.o: Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o
+.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.o
 
 # target to build an object file
-Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o
-.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o
+Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o
+.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o
 
-Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.i: Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.i
-.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.i
+Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.i: Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.i
+.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.i
 
 # target to preprocess a source file
-Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.i
-.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.i
+Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.i
+.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.i
 
-Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.s: Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.s
-.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.s
+Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.s: Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.s
+.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.s
 
 # target to generate assembly for a file
-Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.s
-.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.s
+Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.s
+.PHONY : Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.o"
-	@echo "... Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.i"
-	@echo "... Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.s"
+	@echo "... Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.o"
+	@echo "... Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.i"
+	@echo "... Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.s"
 .PHONY : help
 
 

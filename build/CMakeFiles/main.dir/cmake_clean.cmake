@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o"
-  "CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/protein_translation.c.o.d"
+  "CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o"
+  "CMakeFiles/main.dir/Users/shivakarthick/Documents/my-github-projects/Competitive-programming/exercism/C/run_length_encoding.c.o.d"
   "main"
   "main.pdb"
 )
