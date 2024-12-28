@@ -9,21 +9,22 @@ Functional Programming paradigm
 
 
 def combinations(target, size, exclude):
-    # Generate a range of numbers from 1 to 9
-    numbers = list(range(1, 10))
-    for i in exclude:
-        numbers.remove(i)
+    numbers = list(filter(lambda x: x not in exclude, range(1, 10)))
 
-    # Invariant 1 : Check if the numbers variable is correct
+    # Invariant 1: Check if the numbers vaariable is correct
+    assert all(num not in exclude for num in numbers), "Numbers contain exclude values"
+    assert sorted(numbers) == numbers, "Numbers are not sorted"
 
-    numbers.sort()
     result = list(itertools.combinations(numbers, size))
 
+    assert all(
+        len(comb) == size for comb in result
+    ), "Some combinations have incorrect size"
+
     filtered_result = list(filter(lambda x: sum(x) == target, result))
+    filtered_result = list(map(list, filtered_result))
 
-    filtered_result_list = list(map(list, filtered_result))
-
-    return filtered_result_list
+    return filtered_result
 
 
 class KillerSudokuHelperTest(unittest.TestCase):
