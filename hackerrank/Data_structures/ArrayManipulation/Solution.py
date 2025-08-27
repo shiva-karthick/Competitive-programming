@@ -22,10 +22,13 @@ class SinglyLinkedList:
         node = SinglyLinkedListNode(node_data)
 
         if not self.head:
+            # pyrefly: ignore  # bad-assignment
             self.head = node
         else:
+            # pyrefly: ignore  # missing-attribute
             self.tail.next = node
 
+        # pyrefly: ignore  # bad-assignment
         self.tail = node
 
 # Complete the printLinkedList function below.

@@ -52,6 +52,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.to_tree()
         self.assertEqual(result, expected)
 
@@ -66,6 +67,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.left().right().value()
         self.assertEqual(result, 3)
 
@@ -80,6 +82,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.left().left()
         self.assertIsNone(result)
 
@@ -103,6 +106,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.left().right().to_tree()
         self.assertEqual(result, expected)
 
@@ -117,6 +121,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.up()
         self.assertIsNone(result)
 
@@ -131,6 +136,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.left().up().right().up().left().right().value()
         self.assertEqual(result, 3)
 
@@ -145,6 +151,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.left().right().up().up().value()
         self.assertEqual(result, 1)
 
@@ -168,6 +175,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.left().set_value(5).to_tree()
         self.assertEqual(result, expected)
 
@@ -191,6 +199,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.left().right().up().set_value(5).to_tree()
         self.assertEqual(result, expected)
 
@@ -215,6 +224,7 @@ class ZipperTest(unittest.TestCase):
         }
         zipper = Zipper.from_tree(initial)
         result = (
+            # pyrefly: ignore  # missing-attribute
             zipper.left().set_left({"value": 5, "left": None, "right": None}).to_tree()
         )
         self.assertEqual(result, expected)
@@ -235,6 +245,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.left().set_right(None).to_tree()
         self.assertEqual(result, expected)
 
@@ -262,6 +273,7 @@ class ZipperTest(unittest.TestCase):
             },
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.set_right(
             {
                 "value": 6,
@@ -291,6 +303,7 @@ class ZipperTest(unittest.TestCase):
             "right": {"value": 4, "left": None, "right": None},
         }
         zipper = Zipper.from_tree(initial)
+        # pyrefly: ignore  # missing-attribute
         result = zipper.left().right().set_value(5).to_tree()
         self.assertEqual(result, expected)
 
@@ -304,6 +317,7 @@ class ZipperTest(unittest.TestCase):
             },
             "right": {"value": 4, "left": None, "right": None},
         }
+        # pyrefly: ignore  # missing-attribute
         result = Zipper.from_tree(initial).left().up().right().to_tree()
         final = {
             "value": 1,
@@ -314,5 +328,6 @@ class ZipperTest(unittest.TestCase):
             },
             "right": {"value": 4, "left": None, "right": None},
         }
+        # pyrefly: ignore  # missing-attribute
         expected = Zipper.from_tree(final).right().to_tree()
         self.assertEqual(result, expected)

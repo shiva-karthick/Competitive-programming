@@ -18,29 +18,46 @@ line = "ABCD"
 def solve(line):
     for i in range(len(line)):
         if (i+1) % 3 != 0:
+            # pyrefly: ignore  # missing-attribute
             line1.append("..#.")
+            # pyrefly: ignore  # missing-attribute
             line2.append(".#.#")
             if (i) % 3 == 0 and  i != 0:
+                # pyrefly: ignore  # missing-attribute
                 line3.append("*." + str(line[i]) + ".")
             else:
+                # pyrefly: ignore  # missing-attribute
                 line3.append("#." + str(line[i]) + ".")
+            # pyrefly: ignore  # missing-attribute
             line4.append(".#.#")
+            # pyrefly: ignore  # missing-attribute
             line5.append("..#.")
         elif (i+1) % 3 == 0 and i != 0:
+            # pyrefly: ignore  # missing-attribute
             line1.append("..*.")
+            # pyrefly: ignore  # missing-attribute
             line2.append(".*.*")
+            # pyrefly: ignore  # missing-attribute
             line3.append("*." + str(line[i]) + ".")
+            # pyrefly: ignore  # missing-attribute
             line4.append(".*.*")
+            # pyrefly: ignore  # missing-attribute
             line5.append("..*.")
 
+    # pyrefly: ignore  # missing-attribute
     line1.append(".")
+    # pyrefly: ignore  # missing-attribute
     line2.append(".")
+    # pyrefly: ignore  # missing-attribute
     line4.append(".")
+    # pyrefly: ignore  # missing-attribute
     line5.append(".")
     
     if len(line) % 3 == 0:
+        # pyrefly: ignore  # missing-attribute
         line3.append("*")
     else:
+        # pyrefly: ignore  # missing-attribute
         line3.append("#")
 
 solve(line)

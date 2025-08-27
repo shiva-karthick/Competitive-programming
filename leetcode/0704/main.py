@@ -34,4 +34,5 @@ key = 3
 # s = Solution()
 # print(s.search(seq, key))
 
+# pyrefly: ignore  # unknown-name
 print(classic_search(seq, key))

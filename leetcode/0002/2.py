@@ -28,8 +28,10 @@ def reverseList(head: ListNode) -> ListNode:
         next_node = head.next
         head.next = prev
         prev = head
+        # pyrefly: ignore  # bad-assignment
         head = next_node
 
+    # pyrefly: ignore  # bad-return
     return prev
 
 
@@ -41,13 +43,16 @@ def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
     while l1 or l2 or carry:
         if l1:
             carry += l1.val
+            # pyrefly: ignore  # bad-assignment
             l1 = l1.next
         if l2:
             carry += l2.val
+            # pyrefly: ignore  # bad-assignment
             l2 = l2.next
         cur.next = ListNode(carry % 10)
         cur = cur.next
         carry //= 10
+    # pyrefly: ignore  # bad-return
     return dummy.next
 
 
@@ -64,4 +69,5 @@ t3 = list_to_LL([])
 
 one = list_to_LL([2, 4, 3])
 two = list_to_LL([5, 6, 4])
+# pyrefly: ignore  # bad-argument-type
 print(addTwoNumbers(one, two))

@@ -13,6 +13,7 @@ class Solution:
         high = n
         while (low <= high):
             mid = low + (high - low) // 2
+            # pyrefly: ignore  # unknown-name
             res = guess(mid)
             if res == 0:
                 return mid

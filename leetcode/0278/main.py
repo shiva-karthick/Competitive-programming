@@ -8,6 +8,7 @@ class Solution:
 
         while (left <= right):
             mid = (left + right) // 2
+            # pyrefly: ignore  # bad-argument-count
             if (self.isBadVersion(mid)):
                 # move to left side, look for source
                 right = mid - 1

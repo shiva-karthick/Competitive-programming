@@ -1,4 +1,5 @@
 import unittest
+# pyrefly: ignore  # import-error
 import main
 
 
@@ -35,4 +36,5 @@ class TestStringMethods(unittest.TestCase):
 
 
 if __name__ == "__main__":
+    # pyrefly: ignore  # not-callable
     unittest.main()

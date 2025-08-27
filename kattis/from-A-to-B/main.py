@@ -13,6 +13,7 @@ for line in sys.stdin:
 
     ## Keep track of recursion count
     count = 0
+    # pyrefly: ignore  # bad-assignment
     while a != b:              
         if a > b:
             if a % 2 == 0: ## shows a is an even number

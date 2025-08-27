@@ -66,8 +66,10 @@ if __name__ == "__main__":
         m = atcoder_include.match(line)
 
         if m:
+            # pyrefly: ignore  # bad-argument-type
             result.extend(dfs(m.group(1)))
             continue
+        # pyrefly: ignore  # bad-argument-type
         result.append(line)
 
     output = '\n'.join(result) + '\n'
